@@ -112,6 +112,8 @@ MainWindow::MainWindow(QWidget *parent)
     QFrame#sidebar QPushButton {
         background-color: transparent;
         color: #C7D2E3;
+        text-align: left;
+        padding-left: 18px;
     }
     QFrame#sidebar QPushButton:hover { background-color: #2B3955; color: #FFFFFF; }
     QFrame#sidebar QPushButton:pressed { background-color: #3B4B6A; color: #FFFFFF; }
